@@ -1,0 +1,62 @@
+2018-06-07 15:02:03.813 +01:00 [Information] SupplierController/CheckModel Procedure : MODEL VALID   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 15:02:03.822 +01:00 [Information] SupplierController/CheckModel Procedure : MODEL VALID   Supplier : { "Supplier Code": "A123", "Supplier Name": "ABC Company" } 
+2018-06-07 15:02:03.823 +01:00 [Error] SupplierController/CheckModel Procedure : MODEL INVALID   Supplier : { "Supplier Code": "", "Supplier Name": "Joe Browns2" } 
+2018-06-07 15:02:03.825 +01:00 [Error] SupplierController/CheckModel SupplierCode : The Supplier Code field is required.
+2018-06-07 15:02:03.825 +01:00 [Error] SupplierController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-06-07 15:02:03.826 +01:00 [Information] SupplierController/CheckModel Procedure : MODEL VALID   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 15:02:03.826 +01:00 [Error] SupplierController/CheckModel Procedure : MODEL INVALID   Supplier : { "Supplier Code": "", "Supplier Name": "" } 
+2018-06-07 15:02:03.827 +01:00 [Error] SupplierController/CheckModel SupplierCode : The Supplier Code field is required.
+2018-06-07 15:02:03.827 +01:00 [Error] SupplierController/CheckModel SupplierName : The Supplier Name field is required.
+2018-06-07 15:02:03.967 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 15:02:03.971 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 15:02:03.973 +01:00 [Information] SupplierController/CheckModel Procedure : SUCCESS   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 15:02:03.975 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "A123", "Supplier Name": "ABC Company" } 
+2018-06-07 15:02:03.978 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "A123", "Supplier Name": "ABC Company" } 
+2018-06-07 15:02:03.979 +01:00 [Information] SupplierController/CheckModel Procedure : SUCCESS   Supplier : { "Supplier Code": "A123", "Supplier Name": "ABC Company" } 
+2018-06-07 15:02:03.981 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 15:02:03.984 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 15:02:03.985 +01:00 [Information] SupplierController/CheckModel Procedure : SUCCESS   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 15:18:58.767 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM1", "Company Name": "Company 1" } 
+2018-06-07 15:18:58.775 +01:00 [Error] CompanyController/CheckModel Procedure : MODEL INVALID  Company : { "Company Code": "", "Company Name": "Company 2" } 
+2018-06-07 15:18:58.777 +01:00 [Error] CompanyController/CheckModel CompanyCode : The CompanyCode field is required.
+2018-06-07 15:18:58.918 +01:00 [Information] Company added OK
+2018-06-07 15:18:58.919 +01:00 [Information] CompanyController/CheckModel Returning 200 OK with payload as errors occurred
+2018-06-07 15:40:12.031 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM1", "Company Name": "Company 1" } 
+2018-06-07 15:40:12.038 +01:00 [Error] CompanyController/CheckModel Procedure : MODEL INVALID  Company : { "Company Code": "", "Company Name": "Company 2" } 
+2018-06-07 15:40:12.040 +01:00 [Error] CompanyController/CheckModel CompanyCode : The CompanyCode field is required.
+2018-06-07 15:40:12.149 +01:00 [Information] CompanyDataController/AddCompany SUCCESS Procedure : ordercreate.AddCompany  Company added OK
+2018-06-07 15:40:12.149 +01:00 [Information] CompanyController/CheckModel Returning 200 OK with payload as errors occurred
+2018-06-07 15:48:46.763 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "156524" } @}
+2018-06-07 15:48:46.773 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "02", OptionDescription: "MINK", SupplierItemNumber: "SUPP123M", OptionWeight: "156524" } @}
+2018-06-07 15:48:46.776 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "03", OptionDescription: "SILVER", SupplierItemNumber: "SUPP123S", OptionWeight: "156524" } @}
+2018-06-07 15:48:46.777 +01:00 [Information] FGHItemController/PostNewItem Procedure : SUCCESS  PostNewItem
+2018-06-07 15:48:46.782 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "31X6", FGHItemDescription: "GP DIA MUM RING", FGHOptionNumber { OptionNumber: "01", OptionDescription: "L", SupplierItemNumber: "U148/1", OptionWeight: "50" } @}
+2018-06-07 15:48:46.784 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "31X6", FGHItemDescription: "GP DIA MUM RING", FGHOptionNumber { OptionNumber: "02", OptionDescription: "P", SupplierItemNumber: "U148/2", OptionWeight: "50" } @}
+2018-06-07 15:48:46.785 +01:00 [Information] FGHItemController/PostNewItem Procedure : SUCCESS  PostNewItem
+2018-06-07 15:48:46.785 +01:00 [Information] FGHItemController/PostNewItem Returning 200 OK
+2018-06-07 15:49:31.088 +01:00 [Information] Unauthorized Access
+2018-06-07 15:49:31.090 +01:00 [Error] FGHItemController/PostNewItem not authorized , invalid Bearer Key
+2018-06-07 15:49:31.091 +01:00 [Error] FGHItemController/PostNewItem Returning 401 Unauthorized
+2018-06-07 15:49:34.414 +01:00 [Information] Unauthorized Access
+2018-06-07 15:49:34.415 +01:00 [Error] FGHItemController/PostNewItem not authorized , invalid Bearer Key
+2018-06-07 15:49:34.416 +01:00 [Error] FGHItemController/PostNewItem Returning 401 Unauthorized
+2018-06-07 15:49:37.649 +01:00 [Error] FGHItemController/PostNewItem Model Error for List<FGHItem> Count = 2
+2018-06-07 15:49:37.650 +01:00 [Error] FGHItemController/PostNewItem items[1].OptionData[1].OptionWeight : 
+2018-06-07 15:49:37.650 +01:00 [Error] FGHItemController/PostNewItem items[0].OptionData[0].OptionNumber : The OptionNumber field is required.
+2018-06-07 15:49:37.650 +01:00 [Error] FGHItemController/PostNewItem items[0].OptionData[2].OptionNumber : The OptionNumber field is required.
+2018-06-07 15:49:37.651 +01:00 [Error] FGHItemController/PostNewItem Returning 400 Bad Request
+2018-06-07 15:52:36.293 +01:00 [Error] FGHItemController/PostNewItem Model Error for List<FGHItem> Count = 1
+2018-06-07 15:52:36.294 +01:00 [Error] FGHItemController/PostNewItem items[0].OptionData[0].OptionWeight : 
+2018-06-07 15:52:36.294 +01:00 [Error] FGHItemController/PostNewItem Returning 400 Bad Request
+2018-06-07 15:54:43.833 +01:00 [Information] FGHItemController/CheckModel Procedure : MODEL VALID  FGHItem : @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "0" } @}
+2018-06-07 15:54:52.796 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "0" } @}
+2018-06-07 15:54:56.426 +01:00 [Information] FGHItemController/CheckModel Procedure : SUCCESS  CheckModel
+2018-06-07 15:55:03.270 +01:00 [Information] FGHItemController/CheckModel Returning 200 OK
+2018-06-07 15:56:50.628 +01:00 [Information] FGHItemController/CheckModel Procedure : MODEL VALID  FGHItem : @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "0" } @}
+2018-06-07 15:56:56.233 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "0" } @}
+2018-06-07 15:56:58.060 +01:00 [Information] FGHItemController/CheckModel Procedure : SUCCESS  CheckModel
+2018-06-07 15:57:02.398 +01:00 [Information] FGHItemController/CheckModel Returning 200 OK
+2018-06-07 15:58:03.674 +01:00 [Information] FGHItemController/CheckModel Procedure : MODEL VALID  FGHItem : @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "0" } @}
+2018-06-07 15:58:18.011 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "0" } @}
+2018-06-07 15:58:18.011 +01:00 [Information] FGHItemController/CheckModel Procedure : SUCCESS  CheckModel
+2018-06-07 15:58:18.012 +01:00 [Information] FGHItemController/CheckModel Returning 200 OK

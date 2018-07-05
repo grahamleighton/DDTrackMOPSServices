@@ -1,0 +1,11 @@
+2018-06-07 16:01:05.241 +01:00 [Error] FGHItemController/PostNewItem Returning 400 Bad Request as parameter items = null 
+2018-06-07 16:16:11.477 +01:00 [Error] FGHItemController/PostNewItem Returning 400 Bad Request as parameter items = null 
+2018-06-07 16:16:19.823 +01:00 [Information] FGHItemController/CheckModel Procedure : MODEL VALID  FGHItem : @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "32.93" } @}
+2018-06-07 16:16:19.919 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "32.93" } @}
+2018-06-07 16:16:19.920 +01:00 [Information] FGHItemController/CheckModel Procedure : SUCCESS  CheckModel
+2018-06-07 16:16:19.920 +01:00 [Information] FGHItemController/CheckModel Returning 200 OK
+2018-06-07 16:16:36.656 +01:00 [Information] FGHItemController/CheckModel Procedure : MODEL VALID  FGHItem : @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "0" } @}
+2018-06-07 16:16:36.660 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "30W4", FGHItemDescription: "CHICAGO TRAD 3+1+1 G", FGHOptionNumber { OptionNumber: "01", OptionDescription: "CHARCOAL", SupplierItemNumber: "SUPP123C", OptionWeight: "0" } @}
+2018-06-07 16:16:36.661 +01:00 [Information] FGHItemController/CheckModel Procedure : SUCCESS  CheckModel
+2018-06-07 16:16:36.661 +01:00 [Information] FGHItemController/CheckModel Returning 200 OK
+2018-06-07 16:16:46.138 +01:00 [Error] FGHItemController/PostNewItem Returning 400 Bad Request as parameter items = null 

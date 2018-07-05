@@ -1,0 +1,27 @@
+2018-06-07 13:44:01.079 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM1", "Company Name": "Company 1" } 
+2018-06-07 13:44:01.086 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM2", "Company Name": "Company 2" } 
+2018-06-07 13:44:01.319 +01:00 [Error] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  The connection was not closed. The connection's current state is open.
+2018-06-07 13:44:34.656 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM1", "Company Name": "Company 1" } 
+2018-06-07 13:44:34.659 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM2", "Company Name": "Company 2" } 
+2018-06-07 13:44:34.748 +01:00 [Error] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  The connection was not closed. The connection's current state is open.
+2018-06-07 13:47:47.975 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM1", "Company Name": "Company 1" } 
+2018-06-07 13:47:47.984 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM2", "Company Name": "Company 2" } 
+2018-06-07 13:47:48.210 +01:00 [Error] CompanyController/CheckModel Specified cast is not valid.
+2018-06-07 13:48:59.737 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM1", "Company Name": "Company 1" } 
+2018-06-07 13:48:59.744 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM2", "Company Name": "Company 2" } 
+2018-06-07 13:48:59.831 +01:00 [Information] Company added OK
+2018-06-07 13:48:59.835 +01:00 [Information] Company added OK
+2018-06-07 13:49:56.432 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM1", "Company Name": "Company 1" } 
+2018-06-07 13:49:56.433 +01:00 [Error] CompanyController/CheckModel Procedure : MODEL INVALID  Company : { "Company Code": "", "Company Name": "Company 2" } 
+2018-06-07 13:49:56.434 +01:00 [Error] CompanyController/CheckModel CompanyCode : The CompanyCode field is required.
+2018-06-07 13:49:56.438 +01:00 [Information] Company added OK
+2018-06-07 13:55:24.044 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM1", "Company Name": "Company 1" } 
+2018-06-07 13:55:24.050 +01:00 [Error] CompanyController/CheckModel Procedure : MODEL INVALID  Company : { "Company Code": "", "Company Name": "Company 2" } 
+2018-06-07 13:55:24.052 +01:00 [Error] CompanyController/CheckModel CompanyCode : The CompanyCode field is required.
+2018-06-07 13:55:24.167 +01:00 [Information] Company added OK
+2018-06-07 13:55:24.168 +01:00 [Information] CompanyController/CheckModel Returning 200 OK with payload as errors occurred
+2018-06-07 13:56:04.752 +01:00 [Information] CompanyController/CheckModel Procedure : MODEL VALID  Company : { "Company Code": "COM1", "Company Name": "Company 1" } 
+2018-06-07 13:56:04.752 +01:00 [Error] CompanyController/CheckModel Procedure : MODEL INVALID  Company : { "Company Code": "", "Company Name": "Company 2" } 
+2018-06-07 13:56:04.753 +01:00 [Error] CompanyController/CheckModel CompanyCode : The CompanyCode field is required.
+2018-06-07 13:56:04.756 +01:00 [Information] Company added OK
+2018-06-07 13:56:04.756 +01:00 [Information] CompanyController/CheckModel Returning 200 OK with payload as errors occurred

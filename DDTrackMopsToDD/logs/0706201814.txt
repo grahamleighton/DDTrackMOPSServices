@@ -1,0 +1,18 @@
+2018-06-07 14:48:35.670 +01:00 [Information] SupplierController/CheckModel Procedure : MODEL VALID   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 14:48:35.677 +01:00 [Information] SupplierController/CheckModel Procedure : MODEL VALID   Supplier : { "Supplier Code": "A123", "Supplier Name": "ABC Company" } 
+2018-06-07 14:48:35.678 +01:00 [Error] SupplierController/CheckModel Procedure : MODEL INVALID   Supplier : { "Supplier Code": "", "Supplier Name": "Joe Browns2" } 
+2018-06-07 14:48:35.680 +01:00 [Error] SupplierController/CheckModel SupplierCode : The Supplier Code field is required.
+2018-06-07 14:48:35.680 +01:00 [Error] SupplierController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-06-07 14:48:35.681 +01:00 [Information] SupplierController/CheckModel Procedure : MODEL VALID   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 14:48:35.681 +01:00 [Error] SupplierController/CheckModel Procedure : MODEL INVALID   Supplier : { "Supplier Code": "", "Supplier Name": "" } 
+2018-06-07 14:48:35.682 +01:00 [Error] SupplierController/CheckModel SupplierCode : The Supplier Code field is required.
+2018-06-07 14:48:35.682 +01:00 [Error] SupplierController/CheckModel SupplierName : The Supplier Name field is required.
+2018-06-07 14:48:35.829 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 14:48:35.835 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 14:48:35.835 +01:00 [Information] SupplierController/CheckModel Procedure : SUCCESS   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 14:48:35.839 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "A123", "Supplier Name": "ABC Company" } 
+2018-06-07 14:48:35.841 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "A123", "Supplier Name": "ABC Company" } 
+2018-06-07 14:48:35.842 +01:00 [Information] SupplierController/CheckModel Procedure : SUCCESS   Supplier : { "Supplier Code": "A123", "Supplier Name": "ABC Company" } 
+2018-06-07 14:48:35.845 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 14:48:35.847 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 
+2018-06-07 14:48:35.848 +01:00 [Information] SupplierController/CheckModel Procedure : SUCCESS   Supplier : { "Supplier Code": "Y162", "Supplier Name": "Joe Browns2" } 

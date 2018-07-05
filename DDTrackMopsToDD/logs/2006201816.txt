@@ -1,0 +1,28 @@
+2018-06-20 16:01:24.529 +01:00 [Information] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "D0108" }
+2018-06-20 16:01:24.631 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "D048", "Supplier Name": "Furniture R Us" } 
+2018-06-20 16:01:24.635 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "D048", "Supplier Name": "Furniture R Us" } 
+2018-06-20 16:01:24.642 +01:00 [Information] CompanyDataController/AddCompany SUCCESS Procedure : ordercreate.AddCompany  Company added OK
+2018-06-20 16:01:24.648 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "98J500", FGHItemDescription: "MADISON 6 STR BISTRO", FGHOptionNumber { OptionNumber: "01", OptionDescription: "", SupplierItemNumber: "BISTRO6", OptionWeight: "74" } @}
+2018-06-20 16:01:24.656 +01:00 [Information] CustomerDeliveryDataController/AddCustomerDeliveryDetails Procedure : SUCCESS  {  AccountNumber: "JC12088909", CustomerName: "Jean Wright", Line1: "14 Sandcroft Drive", Line2: "Leamington Spa", Line3: "Warwickshire", Line4: "", Line5: "", Line6: "", Postcode: "CV31 8GD", Country: "UK", EmailAddress: "jc@gmail.com", PhoneNumber1: "0800 123456" , PhoneNumber2: "" }
+2018-06-20 16:01:24.661 +01:00 [Information] CarrierDataController/AddCarrier SUCCESS Procedure : ordercreate.AddCarrier  Carrier added OK
+2018-06-20 16:01:24.670 +01:00 [Information] Order added OK
+2018-06-20 16:02:28.007 +01:00 [Information] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "D0108" }
+2018-06-20 16:02:28.110 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "D048", "Supplier Name": "Furniture R Us" } 
+2018-06-20 16:02:28.116 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "D048", "Supplier Name": "Furniture R Us" } 
+2018-06-20 16:02:28.123 +01:00 [Information] CompanyDataController/AddCompany SUCCESS Procedure : ordercreate.AddCompany  Company added OK
+2018-06-20 16:02:28.130 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "98J500", FGHItemDescription: "MADISON 6 STR BISTRO", FGHOptionNumber { OptionNumber: "01", OptionDescription: "", SupplierItemNumber: "BISTRO6", OptionWeight: "74" } @}
+2018-06-20 16:02:28.136 +01:00 [Information] CustomerDeliveryDataController/AddCustomerDeliveryDetails Procedure : SUCCESS  {  AccountNumber: "JC12088909", CustomerName: "Jean Wright", Line1: "14 Sandcroft Drive", Line2: "Leamington Spa", Line3: "Warwickshire", Line4: "", Line5: "", Line6: "", Postcode: "CV31 8GD", Country: "UK", EmailAddress: "jc@gmail.com", PhoneNumber1: "0800 123456" , PhoneNumber2: "" }
+2018-06-20 16:02:28.141 +01:00 [Information] CarrierDataController/AddCarrier SUCCESS Procedure : ordercreate.AddCarrier  Carrier added OK
+2018-06-20 16:02:28.148 +01:00 [Information] Order added OK
+2018-06-20 16:02:31.150 +01:00 [Information] / SUCCESS Procedure : ordercreate.AddSpecialRequest  Special Request Please leave outside for Order Id 18511  added OK
+2018-06-20 16:02:31.154 +01:00 [Information] / SUCCESS Procedure : ordercreate.AddSpecialRequest  Special Request if not in or next dorr not available for Order Id 18511  added OK
+2018-06-20 16:03:27.834 +01:00 [Information] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "D0108" }
+2018-06-20 16:03:27.840 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "D048", "Supplier Name": "Furniture R Us" } 
+2018-06-20 16:03:27.842 +01:00 [Information] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "D048", "Supplier Name": "Furniture R Us" } 
+2018-06-20 16:03:27.844 +01:00 [Information] CompanyDataController/AddCompany SUCCESS Procedure : ordercreate.AddCompany  Company added OK
+2018-06-20 16:03:27.847 +01:00 [Information] FGHItemDataController/AddFGHItemOption Procedure : SUCCESS  FGHItem @{ "FGHItemNumber: "98J500", FGHItemDescription: "MADISON 6 STR BISTRO", FGHOptionNumber { OptionNumber: "01", OptionDescription: "", SupplierItemNumber: "BISTRO6", OptionWeight: "74" } @}
+2018-06-20 16:03:27.850 +01:00 [Information] CustomerDeliveryDataController/AddCustomerDeliveryDetails Procedure : SUCCESS  {  AccountNumber: "JC12088909", CustomerName: "Jean Wright", Line1: "14 Sandcroft Drive", Line2: "Leamington Spa", Line3: "Warwickshire", Line4: "", Line5: "", Line6: "", Postcode: "CV31 8GD", Country: "UK", EmailAddress: "jc@gmail.com", PhoneNumber1: "0800 123456" , PhoneNumber2: "" }
+2018-06-20 16:03:27.854 +01:00 [Information] CarrierDataController/AddCarrier SUCCESS Procedure : ordercreate.AddCarrier  Carrier added OK
+2018-06-20 16:03:27.858 +01:00 [Information] Order added OK
+2018-06-20 16:03:27.861 +01:00 [Information] / SUCCESS Procedure : ordercreate.AddSpecialRequest  Special Request Please leave outside for Order Id 18512  added OK
+2018-06-20 16:03:27.863 +01:00 [Information] / SUCCESS Procedure : ordercreate.AddSpecialRequest  Special Request if not in or next dorr not available for Order Id 18512  added OK
