@@ -1,0 +1,94 @@
+2018-07-05 14:30:21.489 +01:00 [ERR] Supplier OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:30:21.496 +01:00 [ERR] Customer OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:30:21.496 +01:00 [ERR] ItemData OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:30:21.498 +01:00 [ERR] Company OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:30:21.498 +01:00 [ERR] Company OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:30:21.498 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:30:21.499 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:30:21.499 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:30:21.499 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:30:21.499 +01:00 [ERR] Carrier OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:30:21.499 +01:00 [ERR] Carrier OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:30:21.499 +01:00 [ERR] Order OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:30:21.500 +01:00 [ERR] Order OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:30:21.500 +01:00 [ERR] Order OrderController/CheckModel SupplierDetails.SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:30:21.500 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 14:30:21.501 +01:00 [ERR] Company OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:30:21.501 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:30:21.501 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:30:21.501 +01:00 [ERR] Carrier OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:30:21.501 +01:00 [ERR] Order OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:30:21.501 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 14:32:44.295 +01:00 [ERR] Supplier OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:38:57.238 +01:00 [ERR] Supplier OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:39:14.055 +01:00 [ERR] Customer OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:39:14.056 +01:00 [ERR] ItemData OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:39:14.058 +01:00 [ERR] Company OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:39:14.058 +01:00 [ERR] Company OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:39:14.058 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:39:14.058 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:39:14.058 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:39:14.058 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:39:14.059 +01:00 [ERR] Carrier OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:39:14.059 +01:00 [ERR] Carrier OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:39:14.059 +01:00 [ERR] Order OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:39:14.059 +01:00 [ERR] Order OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:39:14.059 +01:00 [ERR] Order OrderController/CheckModel SupplierDetails.SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:39:14.059 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 14:39:14.060 +01:00 [ERR] Company OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:39:14.060 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:39:14.060 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:39:14.060 +01:00 [ERR] Carrier OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:39:14.060 +01:00 [ERR] Order OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:39:14.060 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 14:42:27.341 +01:00 [ERR] Supplier OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:42:27.347 +01:00 [ERR] Customer OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:42:27.348 +01:00 [ERR] ItemData OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:42:27.350 +01:00 [ERR] Company OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:42:27.350 +01:00 [ERR] Company OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:42:27.350 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:42:27.350 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:42:27.350 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:42:27.350 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:42:27.350 +01:00 [ERR] Carrier OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:42:27.351 +01:00 [ERR] Carrier OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:42:27.351 +01:00 [ERR] Order OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:42:27.351 +01:00 [ERR] Order OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:42:27.351 +01:00 [ERR] Order OrderController/CheckModel SupplierDetails.SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:42:27.351 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 14:42:27.352 +01:00 [ERR] Company OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:42:27.352 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:42:27.352 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:42:27.352 +01:00 [ERR] Carrier OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:42:27.352 +01:00 [ERR] Order OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:42:27.352 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 14:57:37.752 +01:00 [ERR] Order OrderController/CheckModel SupplierDetails.SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:57:37.761 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 14:57:37.763 +01:00 [INF] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 14:57:37.885 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 14:57:37.892 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 14:57:37.995 +01:00 [ERR] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  String or binary data would be truncated.
+The statement has been terminated.
+2018-07-05 14:57:38.009 +01:00 [ERR] OrderController/CheckModel AddCompany : String or binary data would be truncated.
+The statement has been terminated. 
+2018-07-05 14:58:39.250 +01:00 [ERR] Supplier OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:58:39.258 +01:00 [ERR] Customer OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:58:39.258 +01:00 [ERR] ItemData OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:58:39.262 +01:00 [ERR] Company OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:58:39.262 +01:00 [ERR] Company OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:58:39.262 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:58:39.262 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:58:39.262 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:58:39.262 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:58:39.264 +01:00 [ERR] Carrier OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:58:39.264 +01:00 [ERR] Carrier OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:58:39.264 +01:00 [ERR] Order OrderController/CheckModel SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:58:39.264 +01:00 [ERR] Order OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:58:39.265 +01:00 [ERR] Order OrderController/CheckModel SupplierDetails.SupplierCode : Supplier Code must be 4 characters
+2018-07-05 14:58:39.265 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 14:58:39.266 +01:00 [ERR] Company OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:58:39.266 +01:00 [ERR] CompanyBusinessAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:58:39.266 +01:00 [ERR] CompanyReturnAddress OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:58:39.266 +01:00 [ERR] Carrier OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:58:39.266 +01:00 [ERR] Order OrderController/CheckModel CompanyCode : The field CompanyCode must be a string or array type with a maximum length of '4'.
+2018-07-05 14:58:39.266 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "sample data 2" }

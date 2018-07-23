@@ -1,0 +1,57 @@
+2018-07-05 13:16:03.307 +01:00 [INF] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 13:16:03.313 +01:00 [INF] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 13:16:03.412 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:16:03.416 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:16:03.507 +01:00 [ERR] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  String or binary data would be truncated.
+The statement has been terminated.
+2018-07-05 13:16:03.519 +01:00 [ERR] OrderController/CheckModel String or binary data would be truncated.
+The statement has been terminated. 
+2018-07-05 13:16:03.533 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:16:03.536 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:16:03.591 +01:00 [ERR] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  String or binary data would be truncated.
+The statement has been terminated.
+2018-07-05 13:16:03.602 +01:00 [ERR] OrderController/CheckModel String or binary data would be truncated.
+The statement has been terminated. 
+2018-07-05 13:20:46.975 +01:00 [INF] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 13:20:46.981 +01:00 [INF] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 13:20:47.085 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:20:47.091 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:20:47.186 +01:00 [ERR] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  String or binary data would be truncated.
+The statement has been terminated.
+2018-07-05 13:20:47.206 +01:00 [ERR] OrderController/CheckModel AddCompany : String or binary data would be truncated.
+The statement has been terminated. 
+2018-07-05 13:20:47.221 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:20:47.223 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:20:47.295 +01:00 [ERR] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  String or binary data would be truncated.
+The statement has been terminated.
+2018-07-05 13:20:47.310 +01:00 [ERR] OrderController/CheckModel AddCompany : String or binary data would be truncated.
+The statement has been terminated. 
+2018-07-05 13:23:05.417 +01:00 [INF] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 13:23:05.423 +01:00 [INF] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 13:23:05.522 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:23:05.525 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:23:05.630 +01:00 [ERR] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  String or binary data would be truncated.
+The statement has been terminated.
+2018-07-05 13:23:05.644 +01:00 [ERR] OrderController/CheckModel AddCompany : String or binary data would be truncated.
+The statement has been terminated. 
+2018-07-05 13:23:05.656 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:23:05.657 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:23:05.716 +01:00 [ERR] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  String or binary data would be truncated.
+The statement has been terminated.
+2018-07-05 13:23:05.727 +01:00 [ERR] OrderController/CheckModel AddCompany : String or binary data would be truncated.
+The statement has been terminated. 
+2018-07-05 13:24:56.760 +01:00 [INF] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 13:25:56.103 +01:00 [INF] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 13:25:59.851 +01:00 [INF] OrderController/CheckModel Procedure : MODEL VALID  Order { "InvoiceNumber: "sample data 2" }
+2018-07-05 13:25:59.960 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:25:59.966 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:26:00.046 +01:00 [ERR] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  String or binary data would be truncated.
+The statement has been terminated.
+2018-07-05 13:26:00.059 +01:00 [ERR] OrderController/CheckModel AddCompany : String or binary data would be truncated.
+The statement has been terminated. 
+2018-07-05 13:26:00.070 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : admin.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:26:00.074 +01:00 [INF] SupplierDataController/_addSupplier SUCCESS Procedure : ordercreate.AddSupplier   Supplier : { "Supplier Code": "Y162", "Supplier Name": "sample data 4" } 
+2018-07-05 13:26:00.130 +01:00 [ERR] CompanyDataController/AddCompany ERROR Procedure : ordercreate.AddCompany  String or binary data would be truncated.
+The statement has been terminated.
+2018-07-05 13:26:00.143 +01:00 [ERR] OrderController/CheckModel AddCompany : String or binary data would be truncated.
+The statement has been terminated. 

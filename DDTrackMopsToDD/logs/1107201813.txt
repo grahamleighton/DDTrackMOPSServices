@@ -1,0 +1,10 @@
+2018-07-11 13:58:33.710 +01:00 [ERR] Order OrderController/CheckModel SupplierDetails.SupplierName : The Supplier Name field is required.
+2018-07-11 13:58:33.718 +01:00 [ERR] Order OrderController/CheckModel CustomerDeliveryDetails.Line1 : The Line1 field is required.
+2018-07-11 13:58:33.718 +01:00 [ERR] Order OrderController/CheckModel CustomerDeliveryDetails.Postcode : The Postcode field is required.
+2018-07-11 13:58:33.718 +01:00 [ERR] Order OrderController/CheckModel ItemData : The ItemData field is required.
+2018-07-11 13:58:33.718 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "126324001" }
+2018-07-11 14:00:53.115 +01:00 [ERR] Order OrderController/CheckModel SupplierDetails.SupplierName : The Supplier Name field is required.
+2018-07-11 14:00:53.115 +01:00 [ERR] Order OrderController/CheckModel CustomerDeliveryDetails.Line1 : The Line1 field is required.
+2018-07-11 14:00:53.115 +01:00 [ERR] Order OrderController/CheckModel CustomerDeliveryDetails.Postcode : The Postcode field is required.
+2018-07-11 14:00:53.115 +01:00 [ERR] Order OrderController/CheckModel ItemData : The ItemData field is required.
+2018-07-11 14:00:53.115 +01:00 [ERR] OrderController/CheckModel Procedure : MODEL INVALID  Order { "InvoiceNumber: "126324001" }

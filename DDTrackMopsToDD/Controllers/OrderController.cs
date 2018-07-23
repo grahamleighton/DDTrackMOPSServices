@@ -1,4 +1,5 @@
-﻿using DDTrackPlusCommon.Models;
+﻿using DDTrackMopsToDD.Models;
+using DDTrackPlusCommon.Models;
 using Serilog;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,8 @@ namespace DDTrackMOPSServices.Controllers
 
         List<Order> validList = new List<Order>();
 
+        
+
         /// <summary>
         /// 
         /// 
@@ -32,34 +35,133 @@ namespace DDTrackMOPSServices.Controllers
         }
 
 
-        private void CheckModel(Order o)
+        private List<string> CheckModel(Order o)
         {
             string caller = _actionName;
             _actionName = "CheckModel";
             ModelState.Clear();
 
+            List<string> allerrs = new List<string>();
+
+
+
+            //this.Validate(o.SupplierDetails);
+            //if (!ModelState.IsValid)
+            //{
+            //    List<string> errs = cc.GetErrorListFromModelState(ModelState);
+
+            //    foreach (string s in errs)
+            //    {
+            //        Log.Error(String.Format("Supplier {0} {1}", getCaller(), s));
+
+            //        if (!allerrs.Contains(s)) allerrs.Add(s);
+            //    }
+
+            //}
+            //this.Validate(o.CustomerDeliveryDetails);
+            //if (!ModelState.IsValid)
+            //{
+            //    List<string> errs = cc.GetErrorListFromModelState(ModelState);
+
+            //    foreach (string s in errs)
+            //    {
+            //        Log.Error(String.Format("Customer {0} {1}", getCaller(), s));
+            //        if (!allerrs.Contains(s)) allerrs.Add(s);
+            //    }
+
+            //}
+
+            //this.Validate(o.ItemData);
+            //if (!ModelState.IsValid)
+            //{
+            //    List<string> errs = cc.GetErrorListFromModelState(ModelState);
+
+            //    foreach (string s in errs)
+            //    {
+            //        Log.Error(String.Format("ItemData {0} {1}", getCaller(), s));
+            //        if (!allerrs.Contains(s)) allerrs.Add(s);
+            //    }
+
+            //}
+            //this.Validate(o.Company);
+            //if (!ModelState.IsValid)
+            //{
+            //    List<string> errs = cc.GetErrorListFromModelState(ModelState);
+
+            //    foreach (string s in errs)
+            //    {
+            //        Log.Error(String.Format("Company {0} {1}", getCaller(), s));
+            //        if (!allerrs.Contains(s)) allerrs.Add(s);
+            //    }
+
+            //}
+
+            //this.Validate(o.Company.CompanyBusinessAddress);
+            //if (!ModelState.IsValid)
+            //{
+            //    List<string> errs = cc.GetErrorListFromModelState(ModelState);
+
+            //    foreach (string s in errs)
+            //    {
+            //        Log.Error(String.Format("CompanyBusinessAddress {0} {1}", getCaller(), s));
+            //        if (!allerrs.Contains(s)) allerrs.Add(s);
+            //    }
+
+            //}
+
+            //this.Validate(o.Company.CompanyReturnAddress);
+            //if (!ModelState.IsValid)
+            //{
+            //    List<string> errs = cc.GetErrorListFromModelState(ModelState);
+
+            //    foreach (string s in errs)
+            //    {
+            //        Log.Error(String.Format("CompanyReturnAddress {0} {1}", getCaller(), s));
+            //        if (!allerrs.Contains(s)) allerrs.Add(s);
+            //    }
+
+            //}
+
+            //this.Validate(o.Carrier);
+            //if (!ModelState.IsValid)
+            //{
+            //    List<string> errs = cc.GetErrorListFromModelState(ModelState);
+
+            //    foreach (string s in errs)
+            //    {
+            //        Log.Error(String.Format("Carrier {0} {1}", getCaller(), s));
+            //        if (!allerrs.Contains(s)) allerrs.Add(s);
+            //    }
+
+            //}
+
             this.Validate(o);
+            if (!ModelState.IsValid)
+            {
+                List<string> errs = cc.GetErrorListFromModelState(ModelState);
+
+                foreach (string s in errs)
+                {
+                    Log.Error(String.Format("Order {0} {1}", getCaller(), s));
+                    if (!allerrs.Contains(s)) allerrs.Add(s);
+                }
+
+            }
 
             string JSON = o.ToJSON();
 
-            if (ModelState.IsValid)
+            if ( allerrs.Count == 0 )
             {
                 Log.Information(String.Format("{0} {1}", getCaller("MODEL VALID"), JSON));
                 validList.Add(o);
+                return new List<string>();
             }
             else
             {
                 Log.Error(String.Format("{0} {1}", getCaller("MODEL INVALID"), JSON));
-                if (!ModelState.IsValid)
-                {
-                    List<string> errs = cc.GetErrorListFromModelState(ModelState);
-
-                    foreach (string s in errs)
-                    {
-                        Log.Error(String.Format("{0} {1}", getCaller(), s));
-                    }
-                }
+                    return allerrs;
             }
+
         }
 
 
@@ -69,10 +171,12 @@ namespace DDTrackMOPSServices.Controllers
         /// <param name="order"></param>
         /// <returns></returns>
         [HttpPost]
-        [ResponseType(typeof(bool))]
+        [ResponseType(typeof(List<OrderResult>))]
         public IHttpActionResult PostNewOrder(List<Order> order)
         {
             _actionName = "PostNewOrder";
+
+            List<OrderResult> orderResults = new List<OrderResult>();
 
             bool auth = cc.CheckAuthorization(Request);
             if (!auth)
@@ -84,30 +188,57 @@ namespace DDTrackMOPSServices.Controllers
 
             foreach (Order o in order)
             {
-                CheckModel(o);
-            }
-
-
-            if (!ModelState.IsValid)
-            {
-                List<string> errs = cc.GetErrorListFromModelState(ModelState);
-
-                foreach (string s in errs)
+                OrderResult ordRes = new OrderResult();
+                List<string> errors = CheckModel(o);
+                if ( errors != null && errors.Count > 0 )
                 {
-                    Log.Error(s);
+                    try
+                    {
+                        ordRes.Reset(o);
+                        foreach( string s in errors )
+                        {
+                            ordRes.Result.Add(s);
+                        }
+                        orderResults.Add(ordRes);
+                    }
+                    catch(Exception )
+                    {
+                        ordRes.setResult("Invalid model");
+                        orderResults.Add(ordRes);
+                    }
                 }
-                return BadRequest(ModelState);
-
             }
+
+
+            //if (!ModelState.IsValid)
+            //{
+            //    List<string> errs = cc.GetErrorListFromModelState(ModelState);
+
+            //    foreach (string s in errs)
+            //    {
+            //        Log.Error(s);
+            //    }
+            //    return BadRequest(ModelState);
+
+            //}
 
             try
             {
                 string Feedback = "";
-                foreach (Order o in order)
+                OrderID ids = new OrderID();
+               
+                foreach (Order o in validList)
                 {
                     returnValue rc = returnValue.RETURN_SUCCESS;
-                    OrderID ids = new OrderID();
-                              
+
+                    ids.Reset();
+                    OrderResult ordResult = new OrderResult();
+
+                    ordResult.Reset(o);
+
+                    
+
+                   
                     try
                     {
                         // add the supplier details 
@@ -115,34 +246,36 @@ namespace DDTrackMOPSServices.Controllers
                         rc = supplier_dc.AddSupplier(o.SupplierDetails, out Feedback, out ids.SupplierID);                      
                         if ( rc != returnValue.RETURN_SUCCESS)
                         {
-                            throw new Exception(supplier_dc.getError());
+                           
+                            throw new Exception(String.Format("AddSupplier : {0}",  supplier_dc.getError()));
                         }
                         // add the company details
                         rc = company_dc.AddCompany(o.Company, out Feedback, out ids.CompanyID);
                         if (rc != returnValue.RETURN_SUCCESS)
                         {
-                            throw new Exception(company_dc.getError());
+                           
+                            throw new Exception(String.Format("AddCompany : {0}" , company_dc.getError()));
                         }
 
                         // add the item details
                         rc = item_dc.AddFGHItemOption(o.ItemData, out Feedback, out ids.FGHItemID);
                         if (rc != returnValue.RETURN_SUCCESS)
                         {
-                            throw new Exception(item_dc.getError());
+                            throw new Exception(String.Format("Item : {0}", item_dc.getError()));
                         }
 
                         // add the customer delivery details
                         rc = delivery_dc.AddCustomerDeliveryDetails(o.CustomerDeliveryDetails, out Feedback, out ids.CustomerDeliveryID);
                         if (rc != returnValue.RETURN_SUCCESS)
                         {
-                            throw new Exception(delivery_dc.getError());
+                            throw new Exception(String.Format("CustomerAddress : {0}" , delivery_dc.getError()));
                         }
 
                         // add the customer delivery details
                         rc = carrier_dc.AddCarrier (o.Carrier, out Feedback, out ids.CarrierID);
                         if (rc != returnValue.RETURN_SUCCESS)
                         {
-                            throw new Exception(carrier_dc.getError());
+                            throw new Exception(String.Format("Carrier : {0}" , carrier_dc.getError()) );
                         }
 
                         if (ids.isValid())
@@ -152,7 +285,7 @@ namespace DDTrackMOPSServices.Controllers
                             ids.ID = OrderID;
                             if (rc != returnValue.RETURN_SUCCESS)
                             {
-                                throw new Exception(dc.getError());
+                                throw new Exception(String.Format("Order : {0}" , dc.getError()));
                             }
                             if ( ids.ID > 0 )
                             {
@@ -161,32 +294,38 @@ namespace DDTrackMOPSServices.Controllers
                         }
                         else
                         {
-
-                            Log.Error(String.Format("{0} Returning 400 Bad Request as Order IDs not valid", getCaller()));
-                            return BadRequest(String.Format( "Order Not Added Due To Bad IDs {0}", ids.getInvalidIds()));
+                            throw new Exception("Bad Order IDS");
+  //                          Log.Error(String.Format("{0} Returning 400 Bad Request as Order IDs not valid", getCaller()));
+  //                          return BadRequest(String.Format( "Order Not Added Due To Bad IDs {0}", ids.getInvalidIds()));
                         }
 
+                        ordResult.setResult("OK");
 
                     }
                     catch(Exception ex)
                     {
-                        Log.Error(String.Format("{0} Returning 400 Bad Request", getCaller()));
-                        return BadRequest(ex.Message);
+                        ordResult.setResult(ex.Message);
+                        Log.Error(String.Format("{0} {1} ", getCaller() , ex.Message));
+                   //     return BadRequest(ex.Message);
                     }
 
                     if (rc != returnValue.RETURN_SUCCESS)
                     {
-                        return BadRequest(String.Format("An Error Occurred while adding {0}", o.OrderLineId));
+                        ordResult.setResult("Unknown error");
+//                        return BadRequest(String.Format("An Error Occurred while adding {0}", o.OrderLineId));
                     }
+
+                    orderResults.Add(ordResult);
                 }
             }
             catch (Exception )
             {
+//                ordResult.setResult("Unknown error");
                 return BadRequest("Order Not Added");
             }
 
 
-            return Ok();
+            return Ok(orderResults);
 
         }
     }

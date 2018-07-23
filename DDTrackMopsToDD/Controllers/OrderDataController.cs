@@ -121,7 +121,7 @@ namespace DDTrackMOPSServices.Controllers
                 com.Parameters.AddWithValue("@ItemOptionID", ids.FGHItemID);
 
                 com.Parameters.AddWithValue("@OrderNumber", o.OrderNumber);
-                com.Parameters.AddWithValue("@InvoiceNumber", o.InvoiceNumber);
+          
                 com.Parameters.AddWithValue("@DateOfOrder", o.DateOfOrder);
                 com.Parameters.AddWithValue("@DespatchPromiseDate", o.DespatchPromiseDate);
                 com.Parameters.AddWithValue("@DeliveryPromiseDate", o.DeliveryPromiseDate);
